@@ -1,0 +1,15 @@
+{
+"name" : "Templates plugins" ,
+"description": "Custom templates plugin",
+"version" : "1.0.0",
+"author" : "Ayush Mishra",
+"repository":"https://github.com/ayushmishragithub/creating-monokle-template",
+"monokle" : {
+    "modules" : [
+        {
+        "type":"template",
+        "path" : "basic-pod-template"
+    }
+]
+}
+}
