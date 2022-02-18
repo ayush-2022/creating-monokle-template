@@ -1,0 +1,26 @@
+{
+    "name": "Basis Kubernetes pods",
+    "id": "com.github.ayushmishragithub.plugin.templates.basis-pod-template",
+    "author":"Ayush mishra",
+    "version":"1.0.0",
+    "description":"creates a pod for a specified image",
+    "repository" : "",
+    "type":"vanilla",
+    "forms": [
+        {
+            "name": "pod settings",
+            "description": "specify the setting for your pod",
+            "scheme": "form-schema.json",
+            "uiSchema":"form-ui-schema.json"
+
+        }
+    ],
+    "manifests":[
+        {
+            "filePath":"template.yaml"
+        }
+    ],
+    "resultMessage":"pod resource created successfully",
+    "helpUrl":"https://github.com/ayushmishragithub/creating-monokle-template"
+
+}
