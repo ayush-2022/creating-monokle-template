@@ -4,7 +4,10 @@
 "version" : "1.0.0",
 "author" : "Ayush Mishra",
 "repository":"https://github.com/ayushmishragithub/creating-monokle-template",
-"monokle" : {
+"monoklePlugin" :
+ { 
+     "id": "com.github.ayushmishragithub.plugin.templates",
+     "helpUrl":"https://github.com/ayushmishragithub/creating-monokle-template",
     "modules" : [
         {
         "type":"template",
